@@ -1,6 +1,6 @@
 import xmlrpclib
 
-XMLRPC_SERVER = "http://opendotlab.it/auth-xmlrpc"
+XMLRPC_SERVER = ""
 
 class CookieTransport(xmlrpclib.Transport):
    def send_content(self, connection, request_body):
